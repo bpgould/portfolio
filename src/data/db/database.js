@@ -364,36 +364,9 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'Hello Blog',
-      featuredImage: '/images/blog-image-1.jpg',
-      filesource: '../../blog/Hello-Blog.md',
-      createDay: "9",
-      createMonth: 'April',
-      createYear: "2021"
-    },
-    {
-      id: 2,
-      title: 'Installing NodeJS on your device.',
-      featuredImage: '/images/blog-image-2.jpg',
-      filesource: '../../blog/installing-nodejs-on-your-device.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 3,
-      title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
-      filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
-      createDay: "20",
-      createMonth: 'February',
-      createYear: "2020"
-    },
-    {
-      id: 4,
-      title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
-      filesource: '../../blog/boost-your-post-for-increasing-sales.md',
+      title: 'TwelveNines.com',
+      featuredImage: '/images/Profile.jpg',
+      filesource: '../../blog/twelvenines.md',
       createDay: "20",
       createMonth: 'February',
       createYear: "2020"
