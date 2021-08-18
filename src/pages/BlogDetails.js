@@ -22,19 +22,19 @@ function BlogDetails(props) {
   //   url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
   //   identifier: blogId,
   //   title: blogFile
-  // };
+  //};
 
   return (
     <Layout>
       <div className="mi-blog-details mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <ReactMarkdown source={content} escapeHtml={false}></ReactMarkdown>
-          {/* <div className="mi-blog-details-comments mt-30">
-            <Disqus.DiscussionEmbed
+          <div className="mi-blog-details-comments mt-30">
+            {/* <Disqus.DiscussionEmbed
               shortname={disqusShortname}
               config={disqusConfig}
-            />
-          </div> */}
+            /> */}
+          </div>
         </div>
       </div>
     </Layout>

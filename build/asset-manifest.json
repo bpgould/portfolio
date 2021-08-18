@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5744da8d.chunk.css",
+    "main.js": "/static/js/main.6dcae73f.chunk.js",
+    "main.js.map": "/static/js/main.6dcae73f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.7cd80bd8.js",
+    "runtime~main.js.map": "/static/js/runtime~main.7cd80bd8.js.map",
+    "static/css/2.e03ee832.chunk.css": "/static/css/2.e03ee832.chunk.css",
+    "static/js/2.4075fdd5.chunk.js": "/static/js/2.4075fdd5.chunk.js",
+    "static/js/2.4075fdd5.chunk.js.map": "/static/js/2.4075fdd5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.be192b40ef6ceecdc5e25a9330d70b7d.js": "/precache-manifest.be192b40ef6ceecdc5e25a9330d70b7d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e03ee832.chunk.css.map": "/static/css/2.e03ee832.chunk.css.map",
+    "static/css/main.5744da8d.chunk.css.map": "/static/css/main.5744da8d.chunk.css.map",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/twelvenines.md": "/static/media/twelvenines.0d9db4ff.md"
+  }
+}
