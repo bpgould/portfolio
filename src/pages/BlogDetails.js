@@ -11,7 +11,7 @@ function BlogDetails(props) {
 
   useEffect(() => {
     axios
-      .get(require(`../blog/${blogFile}.md`))
+      .get(require(`../../public/blogs/${blogFile}.md`))
       .then(result => {
         setContent(result.data);
       })
