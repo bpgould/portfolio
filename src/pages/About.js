@@ -38,7 +38,7 @@ function About() {
     ],
   };
 
-  const handleToggler = (event) => {
+  const handleToggler = () => { //removed 'event' from params
     setToggler({
       toggler: !toggler,
     });
@@ -135,7 +135,7 @@ function About() {
                 <p>
                 *Please only use for initial contact. I will change this as crawlers and scrapers record it.
                 </p>
-                <a href={information.cvfile} target='_blank' className="mi-button">
+                <a href={information.cvfile} target='_blank' rel="noopener noreferrer" className="mi-button"> 
                   Download Resume
                 </a>
               </div>

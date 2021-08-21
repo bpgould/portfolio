@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BackgroundLines(props){
+function BackgroundLines(){//removed 'props' from parameter
   return (
     <div className="mi-bglines">
       <span></span>

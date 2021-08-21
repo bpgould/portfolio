@@ -1,12 +1,12 @@
 import axios from "axios";
 // import Disqus from "disqus-react";
 import React, { useEffect, useState } from "react";
-import ReactMarkdown from "react-markdown/with-html";
+import ReactMarkdown from "react-markdown";//removed -with-html
 import Layout from "../components/Layout";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");
-  const blogId = props.match.params.id;
+  //const blogId = props.match.params.id; //not needed due to the removal of disqus
   const blogFile = props.match.params.title;
 
   useEffect(() => {
