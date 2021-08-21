@@ -364,7 +364,7 @@ const database = {
   blogs: [
     {
       id: 1,
-      title: 'TwelveNines.com',
+      title: 'twelvenines-all-md',
       featuredImage: '/images/Profile.jpg',
       filesource: '../../blog/twelvenines-all-md.md',
       createDay: "20",

@@ -1,40 +1,30 @@
-import axios from "axios";
-// import Disqus from "disqus-react";
+//import axios from "axios";
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";//removed -with-html
 import Layout from "../components/Layout";
-
-function BlogDetails(props) {
+import remarkGfm from 'remark-gfm';
+import BlogLandingFile from "../blog/twelvenines-all-md.md";
+//removed props param
+function BlogDetails() {
   const [content, setContent] = useState("");
-  //const blogId = props.match.params.id; //not needed due to the removal of disqus
-  const blogFile = props.match.params.title;
 
   useEffect(() => {
-    axios
-      .get(require(`../blog/${blogFile}.md`))
-      .then(result => {
-        setContent(result.data);
-      })
-  }, [content, blogFile]);
-
-  // const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
-  // const disqusConfig = {
-  //   url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
-  //   identifier: blogId,
-  //   title: blogFile
-  //};
+    fetch(BlogLandingFile)
+    .then(response => { 
+      if(response.ok) return response.text();
+      else return Promise.reject("Didn't fetch text correctly");
+    })
+    .then(text => {
+      setContent(text);
+    })
+    .catch((error) => console.error(error));
+  }, [content]);
 
   return (
     <Layout>
       <div className="mi-blog-details mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <ReactMarkdown source={content} escapeHtml={true}></ReactMarkdown>
-          {/* <div className="mi-blog-details-comments mt-30">
-            <Disqus.DiscussionEmbed
-              shortname={disqusShortname}
-              config={disqusConfig}
-            />
-          </div> */}
+          <ReactMarkdown children={content} remarkPlugins={[remarkGfm]}></ReactMarkdown> 
         </div>
       </div>
     </Layout>

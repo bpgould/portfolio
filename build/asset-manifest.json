@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.d820b5d5.chunk.css",
-    "main.js": "/static/js/main.be090cbf.chunk.js",
-    "main.js.map": "/static/js/main.be090cbf.chunk.js.map",
+    "main.js": "/static/js/main.3341aa05.chunk.js",
+    "main.js.map": "/static/js/main.3341aa05.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82fb9831.js",
     "runtime-main.js.map": "/static/js/runtime-main.82fb9831.js.map",
     "static/css/2.9a177a70.chunk.css": "/static/css/2.9a177a70.chunk.css",
-    "static/js/2.38bfc83c.chunk.js": "/static/js/2.38bfc83c.chunk.js",
-    "static/js/2.38bfc83c.chunk.js.map": "/static/js/2.38bfc83c.chunk.js.map",
+    "static/js/2.b5612372.chunk.js": "/static/js/2.b5612372.chunk.js",
+    "static/js/2.b5612372.chunk.js.map": "/static/js/2.b5612372.chunk.js.map",
+    "fc3e5ab868b616acad84281cb11a8fde.md": "/fc3e5ab868b616acad84281cb11a8fde.md",
     "index.html": "/index.html",
     "static/css/2.9a177a70.chunk.css.map": "/static/css/2.9a177a70.chunk.css.map",
     "static/css/main.d820b5d5.chunk.css.map": "/static/css/main.d820b5d5.chunk.css.map",
-    "static/js/2.38bfc83c.chunk.js.LICENSE.txt": "/static/js/2.38bfc83c.chunk.js.LICENSE.txt",
-    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
-    "static/media/twelvenines-all-md.md": "/static/media/twelvenines-all-md.fc3e5ab8.md",
-    "static/media/twelvenines.md": "/static/media/twelvenines.cdd6faad.md"
+    "static/js/2.b5612372.chunk.js.LICENSE.txt": "/static/js/2.b5612372.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.82fb9831.js",
     "static/css/2.9a177a70.chunk.css",
-    "static/js/2.38bfc83c.chunk.js",
+    "static/js/2.b5612372.chunk.js",
     "static/css/main.d820b5d5.chunk.css",
-    "static/js/main.be090cbf.chunk.js"
+    "static/js/main.3341aa05.chunk.js"
   ]
 }
