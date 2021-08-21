@@ -375,7 +375,7 @@ const database = {
   contactInfo: {
     phoneNumbers: ['Recruiter Sign In'],
     emailAddress: ['contactbennett@protonmail.com'],
-    address: "Winston-Salem, NC"
+    address: "Herndon, VA"
   }
 }
 
