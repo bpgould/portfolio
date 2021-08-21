@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad33a9f460a9ee4fb95844637e2fb9b9",
+    "revision": "59c0f97b1e3bfaa665c6cb243018cb1c",
     "url": "/index.html"
   },
   {
-    "revision": "d45038ca7101c3374e59",
+    "revision": "2e6f4a5dd0d240e8456b",
     "url": "/static/css/2.e03ee832.chunk.css"
   },
   {
-    "revision": "997dcb8989361bab0261",
+    "revision": "1768255981ccc293cff1",
     "url": "/static/css/main.5744da8d.chunk.css"
   },
   {
-    "revision": "d45038ca7101c3374e59",
-    "url": "/static/js/2.4075fdd5.chunk.js"
+    "revision": "2e6f4a5dd0d240e8456b",
+    "url": "/static/js/2.6c4de19f.chunk.js"
   },
   {
-    "revision": "997dcb8989361bab0261",
-    "url": "/static/js/main.bb2477e4.chunk.js"
+    "revision": "1768255981ccc293cff1",
+    "url": "/static/js/main.2f536091.chunk.js"
   },
   {
     "revision": "78e07a4c50461a2c97e5",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "248eb6d57f23394b352f0831681fff21",
+    "url": "/static/media/twelvenines-all-md.248eb6d5.md"
   },
   {
     "revision": "0d9db4ffadc9cfacf735577468245c29",

@@ -366,7 +366,7 @@ const database = {
       id: 1,
       title: 'TwelveNines.com',
       featuredImage: '/images/Profile.jpg',
-      filesource: '/blogs/twelvenines.md',
+      filesource: '../../blog/twelvenines-all-md.md',
       createDay: "20",
       createMonth: 'February',
       createYear: "2020"

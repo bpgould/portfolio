@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.5744da8d.chunk.css",
-    "main.js": "/static/js/main.bb2477e4.chunk.js",
-    "main.js.map": "/static/js/main.bb2477e4.chunk.js.map",
+    "main.js": "/static/js/main.2f536091.chunk.js",
+    "main.js.map": "/static/js/main.2f536091.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.7cd80bd8.js",
     "runtime~main.js.map": "/static/js/runtime~main.7cd80bd8.js.map",
     "static/css/2.e03ee832.chunk.css": "/static/css/2.e03ee832.chunk.css",
-    "static/js/2.4075fdd5.chunk.js": "/static/js/2.4075fdd5.chunk.js",
-    "static/js/2.4075fdd5.chunk.js.map": "/static/js/2.4075fdd5.chunk.js.map",
+    "static/js/2.6c4de19f.chunk.js": "/static/js/2.6c4de19f.chunk.js",
+    "static/js/2.6c4de19f.chunk.js.map": "/static/js/2.6c4de19f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.57e5122b042328e9f085e260615b38b9.js": "/precache-manifest.57e5122b042328e9f085e260615b38b9.js",
+    "precache-manifest.7ac60de3dd058b581c1e02f714a2e0b9.js": "/precache-manifest.7ac60de3dd058b581c1e02f714a2e0b9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e03ee832.chunk.css.map": "/static/css/2.e03ee832.chunk.css.map",
     "static/css/main.5744da8d.chunk.css.map": "/static/css/main.5744da8d.chunk.css.map",
     "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/twelvenines-all-md.md": "/static/media/twelvenines-all-md.248eb6d5.md",
     "static/media/twelvenines.md": "/static/media/twelvenines.0d9db4ff.md"
   }
 }
