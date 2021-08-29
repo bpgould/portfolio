@@ -25,8 +25,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,6 +45,7 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.24.0",
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "react-app-rewired": "^2.1.8"
   }
 }
