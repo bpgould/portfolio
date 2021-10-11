@@ -1,9 +1,6 @@
 {
     "env": {
-        "es2021": true,
-        "browser": true,
-        "amd": true,
-        "node": true
+        "es2021": true
     },
     "extends": [
         "eslint:recommended",
@@ -22,7 +19,6 @@
     "rules": {
         "react/prop-types": 0, //added due to runtime errors preventing rendering in the browser
         "no-unused-vars": "off",
-        "no-console": "off",
         "react/no-children-prop": 0
  
     }
