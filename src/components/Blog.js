@@ -34,7 +34,7 @@ function Blog(props) {
           {/* <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
             {title}
           </Link> */}
-          <a href="https://www.twelvenines.com/" target="_blank">Twelve Nines</a>
+          <a href="https://www.twelvenines.com/" target="_blank">TwelveNines</a>
         </h5>
       </div>
     </div>

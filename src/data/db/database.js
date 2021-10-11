@@ -9,7 +9,7 @@ const database = {
     nationality: 'American',
     language: 'English, Elementary German',
     email: 'contactbennett@protonmail.com*',
-    address: 'Winston-Salem, NC',
+    address: 'Herndon, VA',
     freelanceStatus: 'Available exclusively for charity work (helping students, small businesses, etc.)',
     socialLinks: {
       facebook: '',
@@ -72,18 +72,10 @@ const database = {
   reviews: [
     {
       id: 1,
-      content: "Blog Exerpt 1",
+      content: "Check out my blog, TwelveNines!",
       author: {
-        name: 'Example Blog 1',
-        designation: 'Blog Category'
-      }
-    },
-    {
-      id: 2,
-      content: "Blog Exerpt 2",
-      author: {
-        name: 'Example Blog 2',
-        designation: 'Blog Category'
+        name: 'TwelveNines',
+        designation: 'Bennett Gould'
       }
     }
   ],
