@@ -97,11 +97,11 @@ const database = {
       value: 80
     },
     {
-      title: "C++",
-      value: 75
+      title: "Java",
+      value: 80
     },
     {
-      title: "Java",
+      title: "C++",
       value: 70
     },
     {
@@ -176,7 +176,7 @@ const database = {
   awsskills: [
     {
       title: "Lambda",
-      value: 90
+      value: 95
     },
     {
       title: "EC2",
@@ -188,7 +188,7 @@ const database = {
     },
     {
       title: "Step Functions",
-      value: 70
+      value: 85
     },
     {
       title: "ELB",
@@ -199,7 +199,7 @@ const database = {
       value: 90
     },
     {
-      title: "Glaciar/ IA",
+      title: "Glacier/ IA",
       value: 80
     },
     {
@@ -232,15 +232,27 @@ const database = {
     },
     {
       title: "API Gateway",
-      value: 65
+      value: 80
     },
     {
       title: "VPC, Subnetting, & Security Groups",
-      value: 65
+      value: 95
     },
     {
       title: "CloudWatch",
-      value: 60
+      value: 90
+    },
+    {
+      title: "SNS",
+      value: 90
+    },
+    {
+      title: "SQS",
+      value: 85
+    },
+    {
+      title: "RDS - MySQL",
+      value: 70
     }
   ],
   frontendskills: [
@@ -317,20 +329,27 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "Jun 2017 - Present",
+        year: "Jun 2021 - Present",
+        position: "Cloud Engineer",
+        company: "Amazon Web Services",
+        details: "Supported business and enterprise customers for Lambda, API GW, SNS, SQS, VPC, IAM, and more. Assisted customers via email, chat, and live calls to de-escalate crises and decrease time to resolve (TTR). Exceeded metrics set for tenured engineers after only 5 weeks of case work, often doubling or tripling metrics goals during ramp-up period: voted departmental engineer of the month after 2 months. Assisted internal Amazon teams with major outage events, infrastructure best practices, and limited solutions architecting."
+      },
+      {
+        id: 2,
+        year: "Jun 2017 - Jun 2021",
         position: "Head Systems Administrator",
         company: "VarTech Systems",
         details: "Managed all internal and cloud-based servers, services, technology infrastructure, and tools. Managed numerous migrations from legacy and on-prem software/infrastructure to modern and often cloud-based solutions. Configured, updated, and upgraded all user PCs, servers, printers, networking equipment, etc. Performed security audits, gap assessments, patching, and documentation for internal use and regulatory compliance. Managed and implemented modern, redundant backups and disaster recovery plans."
       },
       {
-        id: 2,
-        year: "Oct 2020 - Present",
-        position: "CloudOps Engineer and Co-Founder",
+        id: 3,
+        year: "Oct 2020 - Apr 2021",
+        position: "CloudOps Engineer",
         company: "DroneZones.io",
         details: "Created a big data warehousing application and API for machine learning workflows in the WFU ASGM lab. Architected microservices, utilized serverless resources, built CICD pipelines, and performed TCO calculations. Utilized Next.js frontend, Node.js backend services, Python-based metadata stripper, Mongo Atlas, and more."
       },
       {
-        id: 3,
+        id: 4,
         year: "May 2016 - Dec 2016",
         position: "Biochemistry HPC Intern",
         company: "Wake Forest University",
