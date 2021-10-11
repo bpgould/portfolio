@@ -16,14 +16,14 @@ function Blog(props) {
   return (
     <div className="mi-blog">
       <div className="mi-blog-image">
-        <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
+        {/* <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>  */}
         <ProgressiveImage
           src={featuredImage}
           placeholder="/images/blog-image-placeholder.png"
         >
           {src => <img src={src} alt={title} />}
         </ProgressiveImage>
-        </Link>
+        {/* </Link> */}
         <div className="mi-blog-date">
           <span className="date">{createDay}</span>
           <span className="month">{getShortMonth(createMonth)}</span>
@@ -31,9 +31,10 @@ function Blog(props) {
       </div>
       <div className="mi-blog-content">
         <h5>
-          <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
+          {/* <Link to={`blogs/blog-details/${id}/${getNospaceTitle(filesource)}`}>
             {title}
-          </Link>
+          </Link> */}
+          <a href="https://www.twelvenines.com/" target="_blank">Twelve Nines</a>
         </h5>
       </div>
     </div>
