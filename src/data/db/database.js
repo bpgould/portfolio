@@ -93,6 +93,10 @@ const database = {
       value: 80
     },
     {
+      title: "Terraform",
+      value: 75
+    },
+    {
       title: "C++",
       value: 70
     },
